@@ -64,15 +64,11 @@ Follow these steps to set up the project locally:
     -   Click the 'Add' button to save the expense entry.
 3.  **View Summary**:
     
-    -   The summary dashboard will automatically update to show the total income, total expenses, and remaining balance.
+    -   The summary dashboard will automatically update to show the total income and total expenses.
 
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, bug reports, or improvements, feel free to open an issue or submit a pull request. Please make sure to follow the standard GitHub contribution guidelines.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Contact
 
