@@ -16,8 +16,8 @@ Welcome to the Expense Tracker! This is a simple and intuitive web application t
 ## Features
 
 -   **Add Income**: Users can input and keep track of their various sources of income.
--   **Add Expenses**: Users can record their expenses, categorizing them as needed.
--   **Summary Dashboard**: Provides an overview of total income, total expenses, and remaining balance.
+-   **Add Expenses**: Users can record their expenses.
+-   **Summary Dashboard**: Provides an overview of total income and total expenses.
 -   **Responsive Design**: The application is designed to work seamlessly on both desktop and mobile devices.
 
 ## Technologies Used
@@ -25,8 +25,8 @@ Welcome to the Expense Tracker! This is a simple and intuitive web application t
 -   **HTML5**: For structuring the web content.
 -   **CSS3**: For styling the application.
 -   **JavaScript**: For adding interactivity.
--   **Bootstrap**: For responsive design.
--   **Font Awesome**: For icons.
+-   **React**: For responsive design.
+-   
 
 ## Setup
 
