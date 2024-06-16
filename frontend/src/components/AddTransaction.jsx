@@ -1,8 +1,25 @@
 import React, { useState } from "react";
+import { transactionState } from "../atoms/Transaction";
+import { useSetRecoilState } from "recoil";
 
 export const AddTransaction = () => {
   const [text, setText] = useState("");
   const [amount, setAmount] = useState(0);
+  const setTrans = useSetRecoilState(transactionState);
+
+  function addTrans() {
+    const parsedAmount = parseFloat(amount);
+    event.preventDefault();
+    setTrans((pre) => [
+      ...pre,
+      {
+        id: Math.random(),
+        text_val: text,
+        value: parsedAmount,
+      },
+    ]);
+    setText(""), setAmount(0);
+  }
 
   return (
     <>
@@ -30,12 +47,14 @@ export const AddTransaction = () => {
             id="amount"
             value={amount}
             onChange={(e) => {
-              setAmount(e.target.value);
+              setAmount(parseFloat(e.target.value));
             }}
             placeholder="Enter amount..."
           />
         </div>
-        <button className="btn">Add transaction</button>
+        <button className="btn" onClick={addTrans}>
+          Add transaction
+        </button>
       </form>
     </>
   );

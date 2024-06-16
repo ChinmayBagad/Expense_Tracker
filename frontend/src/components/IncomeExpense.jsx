@@ -3,8 +3,8 @@ import { useRecoilValue } from "recoil";
 import { transactionState } from "../atoms/Transaction";
 
 export const IncomeExpense = () => {
-  const value = useRecoilValue(transactionState);
-  const amount = value.map((trans) => trans.amount);
+  const value1 = useRecoilValue(transactionState);
+  const amount = value1.map((trans) => trans.value);
 
   const plus = amount
     .map(Number)
